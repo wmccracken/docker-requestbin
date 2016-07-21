@@ -3,7 +3,7 @@ MAINTAINER Chris <c@crccheck.com>
 
 ENV REQUESTBIN_VERSION master
 
-ADD https://github.com/Runscope/requestbin/archive/${REQUESTBIN_VERSION}.zip /
+ADD https://github.com/wmccracken/requestbin/archive/${REQUESTBIN_VERSION}.zip /
 
 
 RUN unzip ${REQUESTBIN_VERSION}.zip && \
